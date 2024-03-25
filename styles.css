@@ -1,0 +1,14 @@
+.menu>li{
+    display: inline-block;
+    position: relative;
+}
+.submenu{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    display: none;
+}
+.menu>li:hover .submenu{display: block;
+
+
+}
